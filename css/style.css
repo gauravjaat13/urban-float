@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.inner{
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: #fff; */
+}
+.clearfix:after{
+    content: "";
+    display :block;
+    clear:both;
+}
+/* first section start here */
+.main{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red;   */
+    background-image: url("../image/7.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    
+    /* background-color: rgb(244, 235, 235); */
+}
+
+nav span{
+    float: right;
+    margin-top: 20px;
+    color: white;
+
+}
+
+nav h2{
+   color: white;
+   padding-top: 20px;
+   float: left;
+
+    
+}
+
+
+.banner{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+}
+.banner h1{
+  
+    color: white;
+}
+.banner p{
+  
+    color: white;
+}
+button{
+    height: 30px;
+    width: 120px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+}
+
+
+/* first section end here */
+
+.main2{
+   
+    width: 80%;
+    /* background-color: red;  */
+    margin: 0 auto; 
+    
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.photo{
+   
+    width: 25%;
+    float: left;
+  
+    
+}
+
+.photo img{
+    border-radius: 100%;
+    width: 100%;
+}
+.text{
+    
+    width: 70%;
+    float: right;
+}
+
+/* second section end here */
+
+.main3{
+   
+   
+    width: 100%;
+    background-color: #3498db;
+  
+    margin-top: 20px;
+}
+.box{
+    width: 80%;
+    margin:  0 auto;
+   
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.text1{
+   
+    width: 70%;
+    float: right;
+ 
+}
+
+.photo1{
+   
+    width: 25%;
+    float: left;
+  
+    
+}
+.photo1 img{
+    border-radius: 100%;
+    width: 100%;
+}
+.box button{
+    background-color: aliceblue;
+    color: #3498db;
+}
+
+
+
+
+
+
+
+/* 3 section end here */
+
+.box1{
+    width: 80%;
+    margin:  0 auto;
+    /* background-color: black; */
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-bottom: 30px;
+}
+
+.box1 h1{
+    font-size:30px ;
+    text-align: center;
+}
+
+.box1 h3{
+    font-size:20px ;
+    text-align: center;
+    color: gainsboro;
+    padding-bottom: 20px;
+}
+.b1{
+    width: 30%;
+    float: left;
+    margin:  0 auto;
+    text-align:center ;
+    /* background: #000; */
+    margin-right: 5%;
+   
+}
+.b1 img{
+    border-radius: 100%;
+    width: 100%;
+}
+.b2{
+    width: 30%;
+    float: left;
+    margin:  0 auto;
+    text-align:center ;
+    /* background: #000; */
+   
+}
+.b2 img{
+    border-radius: 100%;
+    width: 100%;
+}
+.b3{
+    width: 30%;
+    float: right;
+    margin:  0 auto;
+    text-align:center ;
+    /* background: #000; */
+   
+}
+.b3 img{
+    border-radius: 100%;
+    width: 100%;
+}
+
+
+/* 4 setion end here */
+footer{
+text-align: center;
+color: gray;
+}
+footer .fa{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 100%;   
+    margin-left: 10px; 
+}
+
+
+
+@media only screen  and  (max-width: 768px)
+    {
+        .photo, .text, .text1, .photo1{
+            text-align: center;
+            width: 100%;
+        }
+
+        .text button{
+            margin-bottom: 30px;
+        }
+
+        .b1, .b2, .b3{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .b1 p, .b2 p, .b3 p , .text p, .text1 p, .banner p{
+            font-size: 20px;
+        }
+
+        .photo img, .photo1 img, .b1 img, .b2 img, .b3 img{
+
+            border-radius: 20px;
+            margin-bottom: 20px;
+            box-shadow: 10px 10px 10px black;
+        }
+        .main2 .photo .text{
+            width: 100%;
+        }
+
+       
+     }
+
+
+
+
+
